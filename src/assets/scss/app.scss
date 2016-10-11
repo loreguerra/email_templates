@@ -1,0 +1,11 @@
+@import 'settings';
+@import 'foundation-emails';
+
+
+.browser-link{
+  a{
+    color: $medium-gray;
+  }
+  font-size: 10px;
+  margin: $global-margin;
+}
