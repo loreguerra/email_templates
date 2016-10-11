@@ -1,6 +1,13 @@
 @import 'settings';
 @import 'foundation-emails';
 
+p{
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+}
 
 .browser-link{
   a{
@@ -8,4 +15,14 @@
   }
   font-size: 10px;
   margin: $global-margin;
+}
+
+.logo-header{
+  margin: $global-margin * 2;
+  .logo{
+    width: 272px;
+    height: 64px;
+    font-size: $h2-font-size;
+    color: $primary-color;
+  }
 }
