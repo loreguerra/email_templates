@@ -35,11 +35,13 @@ h2{
 
 
 //standard content styles
-
+.alt-text{
+  font-size: $global-font-size;
+  font-color: $primary-color;
+}
 .content-block{
   padding: $global-padding * 3.5;
 }
-
 
 //custom content styles
 
