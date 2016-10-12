@@ -67,15 +67,15 @@ h2{
 }
 
 #social-icons{
-  a{
-    color: $dark-gray;
-  }
-  h1{
+  img{
     display: inline;
-    padding: $global-padding * 1.25;
+    padding: $global-padding;
+    width: 40px;
+    height: 40px;
+    display: inline;
+    margin-top: $global-margin * 2;
   }
-  margin: $global-margin * 1.75;
-  padding: $global-padding;
+
 }
 
 #legal{
