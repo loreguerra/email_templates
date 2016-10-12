@@ -24,12 +24,12 @@ h2{
 }
 
 #logo-header{
-  margin: $global-margin * 1.25;
   .logo{
     width: 272px;
     height: 64px;
     font-size: $h2-font-size;
     color: $primary-color;
+    margin: 0px auto;
   }
 }
 
