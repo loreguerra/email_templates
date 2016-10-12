@@ -2,6 +2,15 @@
 @import 'foundation-emails';
 
 //global typography
+
+* {
+  -moz-hyphens: none !important;
+  -ms-hyphens: none !important;
+  -webkit-hyphens: none !important;
+  hyphens: none !important;
+  word-wrap: normal !important;
+}
+
 h1, h2, h3, h4, h5, p{
   text-align: center;
 }
@@ -35,14 +44,17 @@ h2{
 
 
 //standard content styles
+
 .alt-text{
   font-size: $global-font-size;
   font-color: $primary-color;
 }
 .content-block{
-  padding: $global-padding * 2.5;
+  margin-top: $global-margin * 2.5;
+  margin-bottom: $global-margin * 3;
+  padding-left: $global-padding * 2.5;
+  padding-right: $global-padding * 2.5;
 }
-
 
 //custom content styles
 
@@ -54,7 +66,9 @@ h2{
 
 #contact-info{
   background-color: $dark-gray;
-  padding: $global-padding * 2.5;
+  padding-left: $global-padding * 2;
+  padding-right: $global-padding * 2;
+  margin-bottom: $global-margin * 2;
   color: $white;
   a{
     color: $white;
@@ -69,11 +83,10 @@ h2{
 #social-icons{
   img{
     display: inline;
-    padding: $global-padding;
+    padding: $global-padding/2;
     width: 40px;
     height: 40px;
     display: inline;
-    margin-top: $global-margin * 2;
   }
 
 }
@@ -87,5 +100,5 @@ h2{
   a{
     color: $secondary-color;
   }
-  padding: $global-padding * 4;
+  margin-top: $global-padding * 4;
 }
