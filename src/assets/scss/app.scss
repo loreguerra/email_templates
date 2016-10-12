@@ -1,7 +1,7 @@
 @import 'settings';
 @import 'foundation-emails';
 
-h1, h2, h3, h4, h5{
+h1, h2, h3, h4, h5, p{
   text-align: center;
 }
 
@@ -48,6 +48,18 @@ h1, h2, h3, h4, h5{
     display: inline;
     padding: $global-padding;
   }
-  margin: $global-margin * 2;
+  margin: $global-margin * 1.75;
   padding: $global-padding;
+}
+
+#footer-required{
+  p{
+    color: $dark-gray;
+    font-size: $small-font-size;
+    padding: $global-padding/4;
+  }
+  a{
+    color: $secondary-color;
+  }
+  padding: $global-padding*2;
 }
