@@ -27,6 +27,10 @@ h1, h2, h3, h4, h5, p{
 }
 
 #footer{
+  margin-top: $global-margin * 7;
+}
+
+#contact-info{
   background-color: $dark-gray;
   padding: $global-padding * 2.5;
   color: $white;
@@ -46,13 +50,13 @@ h1, h2, h3, h4, h5, p{
   }
   h1{
     display: inline;
-    padding: $global-padding;
+    padding: $global-padding * 1.25;
   }
   margin: $global-margin * 1.75;
   padding: $global-padding;
 }
 
-#footer-required{
+#legal{
   p{
     color: $dark-gray;
     font-size: $small-font-size;
@@ -61,5 +65,5 @@ h1, h2, h3, h4, h5, p{
   a{
     color: $secondary-color;
   }
-  padding: $global-padding*2;
+  padding: $global-padding * 4;
 }

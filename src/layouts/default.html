@@ -34,7 +34,9 @@
 
             {{> body}}
 
-            <div id="footer">
+    <div id="footer">
+
+       <div id="contact-info">
       <h1><a href="http://www.cid-inc.com"><strong>CID-inc.com</strong></a></h1>
         <h4>Request a quote | <a href="mailto:sales@cid-inc.com">sales@cid-inc.com</a></h4>
         <h4><a href="tel:13608338835">+1 (360) 833-8835</a></h4>
@@ -50,18 +52,23 @@
     </div>
 
 
-    <div id="footer-required">
+          <div id="legal">
 
-              <p>Copyright © 2016 Felix Instruments, All rights reserved.<br>
-      CID Bio-Science, Inc. 1554 NE 3rd Ave Camas, WA 98607</p>
+              <p>Copyright &copy; *|CURRENT_YEAR|* *|LIST:COMPANY|*, All rights reserved.<br>
+                  *|HTML:LIST_ADDRESS_HTML|* *|END:IF|*</p>
 
-        <p>You can opt out of all future promotional emails from<br>
-        CID Bio-Science any time you want.</p>
+                    <p>*|IFNOT:ARCHIVE_PAGE|* *|LIST:DESCRIPTION|*</p>
 
-        <p>Add us to your address book | Unsubscribe from this list | Update subscription preferences</p>
+                    <p>
+                      *|IF:REWARDS|* *|HTML:REWARDS|* *|END:IF|* |
+                      <a href="https://us9.admin.mailchimp.com/templates/*|UNSUB|*">
+                        Unsubscribe from this list</a> | <a href="https://us9.admin.mailchimp.com/templates/*|UPDATE_PROFILE|*">
+                        Update subscription preferences</a>
+                    </p>
 
+          </div>
+          
     </div>
-
 
 
 
