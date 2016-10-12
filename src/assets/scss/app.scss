@@ -1,21 +1,8 @@
 @import 'settings';
 @import 'foundation-emails';
 
-#footer{
-  background-color: $dark-gray;
-  padding: $global-padding * 2.5;
-  color: $white;
-  a{
-    color: $white;
-    font-family: $header-font-family;
-    &:hover{
-      text-decoration: underline;
-    }
-  }
-  h1, h4{
-    text-align: center;
-}
-
+h1, h2, h3, h4, h5{
+  text-align: center;
 }
 
 #browser-link{
@@ -37,4 +24,30 @@
     font-size: $h2-font-size;
     color: $primary-color;
   }
+}
+
+#footer{
+  background-color: $dark-gray;
+  padding: $global-padding * 2.5;
+  color: $white;
+  a{
+    color: $white;
+    font-family: $header-font-family;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+
+}
+
+#social-icons{
+  a{
+    color: $dark-gray;
+  }
+  h1{
+    display: inline;
+    padding: $global-padding;
+  }
+  margin: $global-margin * 2;
+  padding: $global-padding;
 }
