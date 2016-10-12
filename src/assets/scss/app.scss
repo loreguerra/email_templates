@@ -5,6 +5,14 @@ h1, h2, h3, h4, h5, p{
   text-align: center;
 }
 
+h2{
+  color: $dark-gray;
+}
+
+.big-image{
+  margin-bottom: $global-margin * 3;
+}
+
 #browser-link{
   a{
     color: $medium-gray;
@@ -14,10 +22,11 @@ h1, h2, h3, h4, h5, p{
   }
   font-size: 10px;
   margin: $global-margin;
+  margin-bottom: $global-margin * 2;
 }
 
 #logo-header{
-  margin: $global-margin * 2;
+  margin: $global-margin * 1.25;
   .logo{
     width: 272px;
     height: 64px;
