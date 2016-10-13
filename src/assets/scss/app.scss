@@ -20,6 +20,11 @@ h2{
 }
 
 //header styles
+.invisible{
+    display:none;
+    font-size: $small-font-size;
+    color: $light-gray;
+}
 #browser-link{
   a{
     color: $medium-gray;
