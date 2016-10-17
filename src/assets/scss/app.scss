@@ -53,6 +53,19 @@ h5{
   margin-bottom: $global-margin * 5;
 }
 
+.image-side-text-module{
+  margin-bottom: $global-margin * 3;
+  background-color: $light-gray;
+  .left{
+    text-align: left;
+    color: $black;
+  }
+  .block-img{
+    display:block;
+    vertical-align:bottom;
+  }
+}
+
 .alt-text{
   font-size: $global-font-size;
   font-color: $primary-color;
