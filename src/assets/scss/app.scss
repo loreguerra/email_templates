@@ -55,12 +55,11 @@ h5{
 
 .image-text-background{
     background-color: $light-gray;
-    .left-image-side-text-module{
+    .image-side-text-module{
       background-color: $light-gray;
       margin-bottom: $global-margin * 3;
       .text-block{
         h2, p{
-          text-align:left;
           color: $black;
         }
         h2{
@@ -69,6 +68,12 @@ h5{
         padding-top: $global-padding * 2.75;
         padding-left: $global-padding * 2;
         padding-right: $global-padding * 2;
+      }
+      .left{
+          text-align:left;
+      }
+      .right{
+          text-align:right;
       }
       img{
         padding-top: $global-padding;
