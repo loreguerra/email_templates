@@ -60,6 +60,14 @@ h5{
   padding-left: $global-padding * 2.5;
 }
 
+.expiration-date{
+  a{
+    color: $secondary-color;
+    font-family: inherit;
+    font-weight: $font-weight-bold;
+  }
+}
+
 //custom content styles
 
 
@@ -81,7 +89,11 @@ h5{
       text-decoration: underline;
     }
   }
-
+  h1{
+    a{
+      font-weight: $font-weight-bold;
+    }
+  }
 }
 
 #social-icons{
