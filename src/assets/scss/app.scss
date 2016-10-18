@@ -50,14 +50,14 @@ h5{
 
 //standard content styles
 .module{
-  margin-bottom: $global-margin * 5;
+  margin-bottom: $global-margin * 6;
 }
 
 .image-text-background{
     background-color: $light-gray;
     .image-side-text-module{
       background-color: $light-gray;
-      margin-bottom: $global-margin * 3;
+      margin-bottom: $global-margin * 5;
       .text-block{
         h2, p{
           color: $black;
