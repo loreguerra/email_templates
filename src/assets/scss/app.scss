@@ -65,8 +65,8 @@ h5{
       background-color: $light-gray;
       .text-block{
         padding-top: $global-padding * 2;
-        padding-left: $global-padding * 1.5;
-        padding-right: $global-padding * 2;
+        margin-left: $global-padding * 1.5;
+        margin-right: $global-padding * 2;
         h2, p{
           color: $black;
         }
@@ -98,20 +98,20 @@ h5{
 .expiration-date{ //FOMO call
   a{
     color: $secondary-color;
-    font-family: inherit;
+    font-family: $header-font-family;
     font-weight: $font-weight-bold;
   }
 }
 
 .bottom-cta-block-background{ //bottom CTA block
   background-color: $darker-gray;
-  padding-top: $global-padding * 4;
   padding-bottom: $global-padding * 2.75;
   .bottom-cta{
     background-color: $darker-gray;
     h2{
         color: $white;
-        padding-bottom: $global-padding * 2;
+        margin-bottom: $global-margin * 3;
+        margin-top: $global-padding * 4.75;
     }
   }
 }
