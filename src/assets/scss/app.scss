@@ -60,9 +60,9 @@ h5{
 
 .image-text-background{ //image with side text gray bg module
     background-color: $light-gray;
+    margin-bottom: $global-margin * 5;
     .image-side-text-module{
       background-color: $light-gray;
-      margin-bottom: $global-margin * 5;
       .text-block{
         padding-top: $global-padding * 2;
         padding-left: $global-padding * 1.5;
