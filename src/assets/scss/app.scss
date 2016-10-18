@@ -49,11 +49,11 @@ h5{
 
 
 //standard content styles
-.module{
+.module{ //regular module
   margin-bottom: $global-margin * 6;
 }
 
-.image-text-background{
+.image-text-background{ //image with side text gray bg module
     background-color: $light-gray;
     .image-side-text-module{
       background-color: $light-gray;
@@ -71,11 +71,10 @@ h5{
       }
       .left{
         padding-bottom: $global-padding;
-          text-align:left;
+        text-align:left;
       }
       .right{
-
-          text-align:right;
+        text-align:right;
       }
       img{
         padding-top: $global-padding;
@@ -88,14 +87,14 @@ h5{
   font-size: $global-font-size;
   font-color: $primary-color;
 }
-.content-block{
+.content-block{ //header & body copy before button
   margin-top: $global-margin * 2.5;
   margin-bottom: $global-margin * 3;
   padding-left: $global-padding * 2.5;
   padding-right: $global-padding * 2.5;
 }
 
-.expiration-date{
+.expiration-date{ //FOMO call
   a{
     color: $secondary-color;
     font-family: inherit;
