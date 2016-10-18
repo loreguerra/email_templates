@@ -19,6 +19,11 @@ h5{
   color: $black;
 }
 
+.alt-text{
+  font-size: $global-font-size;
+  font-color: $primary-color;
+}
+
 //header styles
 .invisible{
     display:none;
@@ -83,10 +88,7 @@ h5{
 }
 
 
-.alt-text{
-  font-size: $global-font-size;
-  font-color: $primary-color;
-}
+
 .content-block{ //header & body copy before button
   margin-top: $global-margin * 2.5;
   margin-bottom: $global-margin * 3;
