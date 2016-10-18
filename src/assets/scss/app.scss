@@ -87,8 +87,6 @@ h5{
     }
 }
 
-
-
 .content-block{ //header & body copy before button
   margin-top: $global-margin * 2.5;
   margin-bottom: $global-margin * 3;
@@ -102,6 +100,9 @@ h5{
     font-family: inherit;
     font-weight: $font-weight-bold;
   }
+}
+.bottom-cta-block{ //bottom CTA block
+  background-color: $darker-gray;
 }
 
 //custom content styles
