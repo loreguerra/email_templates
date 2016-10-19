@@ -120,19 +120,15 @@ h5{
 
 .updates-background{ //updates
     margin-bottom: $global-margin * 5;
-    .updates-module{
-      background-color: $light-gray;
-      .updates-block{
-        padding-top: $global-padding * 2;
-        margin-left: $global-padding * 1.5;
-        margin-right: $global-padding * 2;
-        h2, p{
-          color: $white;
-        }
-        h2{
-          padding-bottom: $global-padding * 0.25;
-        }
-
+    .updates-block{
+      padding-top: $global-padding * 2;
+      margin-left: $global-padding * 1.5;
+      margin-right: $global-padding * 2;
+      h2, p{
+        color: $white;
+      }
+      h2{
+        padding-bottom: $global-padding * 0.25;
       }
       // .left{
       //   padding-bottom: $global-padding;
@@ -162,7 +158,9 @@ h5{
 
 
 //custom content styles
-
+.green{
+  background-color: desaturate(adjust-hue($primary-color, 10), 15);
+}
 
 //footer styles
 #contact-info{
