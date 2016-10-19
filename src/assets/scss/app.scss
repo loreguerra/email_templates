@@ -161,6 +161,23 @@ h5{
   margin-top: $global-margin * 3;
 }
 
+.conference{
+  margin-top: $global-margin * 3;
+ h5, p{
+   text-align: left;
+ }
+ .date{
+   font-weight: bold;
+ }
+}
+
+.first-conference{
+  margin-top: $global-margin * 5;
+}
+.divider{
+  margin-top: $global-margin * 2;
+}
+
 //custom content styles
 .green{
   background-color: $updates-color-first;
