@@ -40,7 +40,6 @@ $global-rounded: 10px;
 $global-breakpoint: $global-width + $global-gutter;
 $updates-color-first: desaturate(adjust-hue($primary-color, 10), 15);
 $updates-color-second: adjust-hue(darken($secondary-color, 20), 5);
-$updates-link-color: adjust-hue(lighten($primary-color, 30), 10);
 
 // 2. Grid
 // -------
