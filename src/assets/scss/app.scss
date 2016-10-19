@@ -63,6 +63,9 @@ h5{
   width:300px;
 }
 
+.update-icon{//smaller icons
+  width: 140px;
+}
 .module{ //regular module
   margin-bottom: $global-margin * 5;
 }
@@ -115,7 +118,34 @@ h5{
   }
 }
 
-//updates
+.updates-background{ //updates
+    margin-bottom: $global-margin * 5;
+    .updates-module{
+      background-color: $light-gray;
+      .updates-block{
+        padding-top: $global-padding * 2;
+        margin-left: $global-padding * 1.5;
+        margin-right: $global-padding * 2;
+        h2, p{
+          color: $white;
+        }
+        h2{
+          padding-bottom: $global-padding * 0.25;
+        }
+
+      }
+      // .left{
+      //   padding-bottom: $global-padding;
+      //   text-align:left;
+      // }
+      // .right{
+      //   text-align:right;
+      // }
+      // img{
+      //   padding-top: $global-padding;
+      // }
+    }
+}
 
 .bottom-cta-block-background{ //bottom CTA block
   background-color: $darker-gray;
