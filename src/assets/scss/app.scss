@@ -121,7 +121,7 @@ h5{
 .updates-container{ //updates
     .updates-block{
       margin-top: $global-margin * 3.5;
-      margin-bottom: $global-margin * 2;
+      margin-bottom: $global-margin * 1.75;
       padding-right: $global-padding * 2;
       padding-left: $global-padding;
       h2, p{
@@ -140,6 +140,7 @@ h5{
     }
 }
 
+
 .bottom-cta-block-background{ //bottom CTA block
   background-color: $darker-gray;
   padding-bottom: $global-padding * 2.75;
@@ -156,7 +157,7 @@ h5{
 
 //custom content styles
 .green{
-  background-color: desaturate(adjust-hue($primary-color, 10), 15);
+  background-color: $updates-color-first;
 }
 
 //footer styles

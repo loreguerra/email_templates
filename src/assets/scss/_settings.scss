@@ -18,7 +18,7 @@
 
 $primary-color: #539a43; //#173d75 for felix
 $secondary-color: #07a6aa;
-$success-color: #3adb76;
+$success-color: lighten(desaturate(adjust-hue($primary-color, 10), 15), 10);
 $warning-color: #ffae00;
 $alert-color: #ec5840;
 $light-gray: #f3f3f3;
@@ -38,6 +38,7 @@ $global-margin: 16px;
 $global-radius: 10px;
 $global-rounded: 10px;
 $global-breakpoint: $global-width + $global-gutter;
+$updates-color-first: desaturate(adjust-hue($primary-color, 10), 15);
 
 // 2. Grid
 // -------
@@ -117,6 +118,7 @@ $button-background: $secondary-color;
 $button-border: 2px solid $button-background;
 $button-radius: $global-radius;
 $button-rounded: $global-rounded;
+
 
 // 6. Callout
 // ----------
