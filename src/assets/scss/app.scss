@@ -118,28 +118,25 @@ h5{
   }
 }
 
-.updates-background{ //updates
-    margin-bottom: $global-margin * 5;
+.updates-container{ //updates
     .updates-block{
-      padding-top: $global-padding * 2;
-      margin-left: $global-padding * 1.5;
-      margin-right: $global-padding * 2;
+      margin-top: $global-margin * 3.5;
+      margin-bottom: $global-margin * 2;
+      padding-right: $global-padding * 2;
+      padding-left: $global-padding;
       h2, p{
         color: $white;
+        text-align: left;
       }
       h2{
         padding-bottom: $global-padding * 0.25;
       }
-      // .left{
-      //   padding-bottom: $global-padding;
-      //   text-align:left;
-      // }
-      // .right{
-      //   text-align:right;
-      // }
-      // img{
-      //   padding-top: $global-padding;
-      // }
+      p{
+        padding-bottom: $global-padding * 1.5;
+      }
+    }
+    img{
+      margin-top: $global-margin * 3.75;
     }
 }
 
