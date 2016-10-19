@@ -77,9 +77,11 @@ h5{
       }
       .left{
         padding-bottom: $global-padding;
+        margin-right: $global-margin * 2;
         text-align:left;
       }
       .right{
+        margin-right: $global-margin * 2;
         text-align:right;
       }
       img{
