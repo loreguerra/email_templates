@@ -108,10 +108,13 @@ h5{
   padding-bottom: $global-padding * 2.75;
   .bottom-cta{
     background-color: $darker-gray;
-    h2{
+    h1{
+        color: $white;
+        margin-top: $global-padding * 4.75;
+    }
+    h4{
         color: $white;
         margin-bottom: $global-margin * 3;
-        margin-top: $global-padding * 4.75;
     }
   }
 }
