@@ -106,7 +106,7 @@ h5{
   padding-left: $global-padding * 2.5;
   padding-right: $global-padding * 2.5;
   h2{
-    margin-bottom: $global-margin * 1.5;
+    margin-bottom: $global-margin * 2;
   }
 }
 
@@ -132,7 +132,7 @@ h5{
         padding-bottom: $global-padding * 0.25;
       }
       p{
-        padding-bottom: $global-padding * 1.5;
+        padding-bottom: $global-padding * 2;
       }
     }
     img{
@@ -157,6 +157,9 @@ h5{
   }
 }
 
+.callout{
+  margin-top: $global-margin * 3;
+}
 
 //custom content styles
 .green{
