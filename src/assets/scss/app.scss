@@ -93,8 +93,8 @@ h5{
 .content-block{ //header & body copy before button
   margin-top: $global-margin * 2.5;
   margin-bottom: $global-margin * 3;
-  margin-left: $global-margin * 4;
-  margin-right: $global-margin * 4;
+  padding-left: $global-padding * 2.5;
+  padding-right: $global-padding * 2.5;
 }
 
 .expiration-date{ //FOMO call
