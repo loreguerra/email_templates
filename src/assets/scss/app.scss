@@ -111,11 +111,12 @@ h5{
   padding-right: $global-padding * 2.5;
   h2{
     margin-bottom: $global-margin * 2;
+    a{
+      color: $secondary-color;
+      font-family: $header-font-family;
+    }
   }
-  a{
-    color: $secondary-color;
-    font-family: $header-font-family;
-  }
+
 }
 
 .expiration-date{ //FOMO call
