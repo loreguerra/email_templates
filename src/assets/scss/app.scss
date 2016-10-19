@@ -11,6 +11,10 @@
   word-wrap: normal !important;
 }
 
+a{
+  color: $secondary-color;
+}
+
 h1, h2, h3, h4, h5, p{
   text-align: center;
 }
@@ -213,16 +217,16 @@ h5{
     width: 40px;
     height: 40px;
   }
-
+  a{
+    color: $secondary-color;
+    font-family: $header-font-family;
+  }
 }
 
 #legal{
   p{
     font-size: $small-font-size;
     padding: $global-padding/4;
-  }
-  a{
-    color: $secondary-color;
   }
   margin-top: $global-padding * 4;
 }
