@@ -55,7 +55,7 @@ h5{
 
 //standard content styles
 .module{ //regular module
-  margin-bottom: $global-margin * 6;
+  margin-bottom: $global-margin * 5;
 }
 
 .image-text-background{ //image with side text gray bg module
@@ -93,6 +93,9 @@ h5{
   margin-bottom: $global-margin * 3;
   padding-left: $global-padding * 2.5;
   padding-right: $global-padding * 2.5;
+  h2{
+    margin-bottom: $global-margin * 1.5;
+  }
 }
 
 .expiration-date{ //FOMO call
