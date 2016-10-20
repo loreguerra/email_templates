@@ -194,6 +194,10 @@ h5{
    margin-bottom: $global-margin * 3.25;
    width: 570px;
  }
+ .event-details{
+   font-size: $medium-font-size;
+   margin-top: $global-margin;
+ }
 }
 
 
@@ -201,6 +205,9 @@ h5{
 //custom content styles
 .green{
   background-color: $updates-color-first;
+}
+.blue{
+  background-color: $updates-color-second;
 }
 
 //footer styles
