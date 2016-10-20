@@ -178,26 +178,25 @@ h5{
 }
 
 .conference{
-  margin-top: $global-margin * 3;
- h5, p{
+  margin-top: $global-margin * 4;
+  margin-bottom: $global-margin * 8;
+  h5, p{
    text-align: left;
  }
- .extra-details{
+  .extra-details{
    font-size: $medium-font-size;
  }
- .date{
+  .date{
    font-weight: bold;
+ }
+ .divider{
+   margin-top: $global-margin * 1.75;
+   margin-bottom: $global-margin * 3.25;
+   max-width: 570px;
  }
 }
 
-.first-conference{
-  margin-top: $global-margin * 5;
-}
 
-.divider{
-  margin-top: $global-margin * 2;
-  max-width: 570px;
-}
 
 //custom content styles
 .green{
