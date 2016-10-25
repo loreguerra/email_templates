@@ -42,6 +42,10 @@ h5{
       text-decoration: underline;
     }
   }
+  p{
+    font-size: 10px;
+    color: $medium-gray;
+  }
   font-size: 10px;
   margin: $global-margin;
   margin-bottom: $global-margin * 2;
