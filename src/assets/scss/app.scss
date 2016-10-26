@@ -39,9 +39,6 @@ h5{
   p, a{
     color: $medium-gray;
     font-size: 10px;
-    &:hover{
-      text-decoration: underline;
-    }
   }
   margin: $global-margin;
   margin-bottom: $global-margin * 2;
@@ -221,9 +218,6 @@ h5{
   a{
     color: $white;
     font-family: $header-font-family;
-    &:hover{
-      text-decoration: underline;
-    }
   }
   h1{
     a{
