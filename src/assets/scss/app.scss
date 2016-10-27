@@ -29,6 +29,11 @@ h5{
   font-color: $primary-color;
 }
 
+.alt-text-sm{
+  font-size: $global-font-size - 6;
+  font-color: $primary-color;
+}
+
 //header styles
 .invisible{
     display:none;
