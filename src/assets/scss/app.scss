@@ -166,8 +166,12 @@ h5{
     background-color: $darker-gray;
     h2{
         color: $white;
-        margin-bottom: $global-margin * 3;
+        margin-bottom: $global-margin * 1.5;
         margin-top: $global-padding * 4.75;
+    }
+    p{
+      color: $white;
+        margin-bottom: $global-margin * 3;
     }
   }
 }
