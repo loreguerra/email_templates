@@ -175,8 +175,10 @@ h5{
 .callout{
   margin-top: $global-margin * 3;
  p{
-   color:$primary-color;
    margin-top: 10px;
+ }
+ strong{
+   color: $primary-color;
  }
 }
 
