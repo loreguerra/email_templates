@@ -174,9 +174,10 @@ h5{
 
 .callout{
   margin-top: $global-margin * 3;
-  li{
-    margin-right: $global-margin;
-  }
+ p{
+   color:$primary-color;
+   margin-top: 10px;
+ }
 }
 
 .conference{
