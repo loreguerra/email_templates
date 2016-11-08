@@ -16,7 +16,7 @@ a{
 }
 
 h1, h2, h3, h4, h5, p{
-  text-align: left;
+  text-align: center;
 }
 
 
@@ -44,7 +44,6 @@ h5, p{
   p, a{
     color: lighten($dark-gray, 15%);
     font-size: 10px;
-    text-align: center;
   }
   margin: $global-margin;
   margin-bottom: $global-margin * 2.5;
@@ -114,10 +113,14 @@ h5, p{
   padding-right: $global-padding * 2.5;
   h2{
     margin-bottom: $global-margin * 2;
+    text-align: left;
     a{
       color: $secondary-color;
       font-family: $header-font-family;
     }
+  }
+  p{
+      text-align: left;
   }
 
 }
