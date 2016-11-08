@@ -16,11 +16,11 @@ a{
 }
 
 h1, h2, h3, h4, h5, p{
-  text-align: center;
+  text-align: left;
 }
 
 
-h5{
+h5, p{
   color: $black;
 }
 
@@ -44,6 +44,7 @@ h5{
   p, a{
     color: lighten($dark-gray, 15%);
     font-size: 10px;
+    text-align: center;
   }
   margin: $global-margin;
   margin-bottom: $global-margin * 2.5;
@@ -118,9 +119,6 @@ h5{
       font-family: $header-font-family;
     }
   }
-  p{
-      color: $black;
-  }
 
 }
 
@@ -178,7 +176,6 @@ h5{
 .callout{
   margin-top: $global-margin * 3;
  p{
-   color:$primary-color;
    margin-top: 10px;
  }
 }
@@ -211,6 +208,12 @@ h5{
 }
 .blue{
   background-color: $updates-color-second;
+}
+.teal{
+    color: $secondary-color;
+}
+.larger-body{
+    font-size: 130%;
 }
 
 //footer styles
