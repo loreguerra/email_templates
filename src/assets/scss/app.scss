@@ -185,7 +185,7 @@ h5, p{
 
 .conference{
   margin-top: $global-margin * 3;
-  margin-bottom: $global-margin * 8;
+  margin-bottom: $global-margin * 2;
   h5, p{
    text-align: left;
  }
@@ -211,6 +211,12 @@ h5, p{
 }
 .blue{
   background-color: $updates-color-second;
+}
+.extra-conf{
+  margin-bottom: $global-margin * 5;
+  p{
+    margin-bottom: $global-margin * 2;
+  }
 }
 
 //footer styles
