@@ -20,12 +20,17 @@ h1, h2, h3, h4, h5, p{
 }
 
 
-h5{
+h5, p{
   color: $black;
 }
 
 .alt-text{
   font-size: $global-font-size;
+  font-color: $primary-color;
+}
+
+.alt-text-sm{
+  font-size: $global-font-size - 6;
   font-color: $primary-color;
 }
 
@@ -36,25 +41,18 @@ h5{
     color: $light-gray;
 }
 #browser-link{
-  a{
-    color: $medium-gray;
-    &:hover{
-      text-decoration: underline;
-    }
-  }
-  p{
+  p, a{
+    color: lighten($dark-gray, 15%);
     font-size: 10px;
-    color: $medium-gray;
   }
-  font-size: 10px;
   margin: $global-margin;
-  margin-bottom: $global-margin * 2;
+  margin-bottom: $global-margin * 2.5;
 }
 
 #logo-header{
   .logo{
-    width: 603px;
-    height: 90px;
+    width: 272px;
+    height: 64px;
     font-size: $h3-font-size;
     color: $primary-color;
     margin: 0px auto;
@@ -72,7 +70,7 @@ h5{
 }
 
 .update-icon{//smaller icons
-  margin: 0px auto;
+  width: 140px;
 }
 .module{ //regular module
   margin-bottom: $global-margin * 5;
@@ -168,20 +166,18 @@ h5{
     background-color: $darker-gray;
     h2{
         color: $white;
+        margin-bottom: $global-margin * 3;
         margin-top: $global-padding * 4.75;
-    }
-    p{
-      color: $white;
-      margin-bottom: $global-margin * 3;
     }
   }
 }
 
 .callout{
   margin-top: $global-margin * 3;
-  li{
-    margin-right: $global-margin;
-  }
+ p{
+   color:$primary-color;
+   margin-top: 10px;
+ }
 }
 
 .conference{
@@ -189,9 +185,6 @@ h5{
   margin-bottom: $global-margin * 8;
   h5, p{
    text-align: left;
- }
-  .extra-details{
-   font-size: $medium-font-size;
  }
   .date{
    font-weight: bold;
@@ -228,9 +221,6 @@ h5{
   a{
     color: $white;
     font-family: $header-font-family;
-    &:hover{
-      text-decoration: underline;
-    }
   }
   h1{
     a{
