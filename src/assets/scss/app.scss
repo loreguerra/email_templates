@@ -159,7 +159,7 @@ h5, p{
 }
 
 .last-update{
-  margin-bottom: $global-margin * 7;
+  margin-bottom: $global-margin * 5;
 }
 
 .bottom-cta-block-background{ //bottom CTA block
@@ -182,7 +182,19 @@ h5, p{
    margin-top: 10px;
  }
 }
+.conference-intro-block{ //conference intro copy block
+  margin-top: $global-margin * 2.5;
+  margin-left: $global-margin * 2.5;
+  margin-right: $global-margin * 2.5;
+  h2{
+    margin-bottom: $global-margin * 2;
+    a{
+      color: $secondary-color;
+      font-family: $header-font-family;
+    }
+  }
 
+}
 .conference{
   // margin-top: $global-margin * 3;
   // margin-bottom: $global-margin * 2;
@@ -208,12 +220,6 @@ h5, p{
 //custom content styles
 .blue{
   background-color: $updates-color-first;
-}
-.extra-conf{
-  margin-bottom: $global-margin * 5;
-  p{
-    margin-bottom: $global-margin * 3;
-  }
 }
 
 //footer styles
