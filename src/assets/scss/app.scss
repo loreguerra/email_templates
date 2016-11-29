@@ -20,12 +20,17 @@ h1, h2, h3, h4, h5, p{
 }
 
 
-h5{
+h5, p{
   color: $black;
 }
 
 .alt-text{
   font-size: $global-font-size;
+  font-color: $primary-color;
+}
+
+.alt-text-sm{
+  font-size: $global-font-size - 6;
   font-color: $primary-color;
 }
 
@@ -37,17 +42,20 @@ h5{
 }
 #browser-link{
   p, a{
-    color: $medium-gray;
+    color: lighten($dark-gray, 15%);
     font-size: 10px;
   }
+  a{
+      margin-left: $global-margin;
+  }
   margin: $global-margin;
-  margin-bottom: $global-margin * 2;
+  margin-bottom: $global-margin * 2.5;
 }
 
 #logo-header{
   .logo{
-    width: 603px;
-    height: 90px;
+    width: 272px;
+    height: 64px;
     font-size: $h3-font-size;
     color: $primary-color;
     margin: 0px auto;
@@ -65,6 +73,7 @@ h5{
 }
 
 .update-icon{//smaller icons
+  max-width: 180px;
   margin: 0px auto;
 }
 .module{ //regular module
@@ -104,8 +113,8 @@ h5{
 .content-block{ //header & body copy before button
   margin-top: $global-margin * 2.5;
   margin-bottom: $global-margin * 3;
-  padding-left: $global-padding * 2.5;
-  padding-right: $global-padding * 2.5;
+  margin-left: $global-padding * 2.5;
+  margin-right: $global-padding * 2.5;
   h2{
     margin-bottom: $global-margin * 2;
     a{
@@ -128,8 +137,8 @@ h5{
     .updates-block{
       margin-top: $global-margin * 3.5;
       margin-bottom: $global-margin * 1.75;
-      padding-right: $global-padding * 2;
-      padding-left: $global-padding;
+      margin-right: $global-padding * 2;
+      margin-left: $global-padding;
       h2, p{
         color: $white;
         text-align: left;
@@ -164,23 +173,20 @@ h5{
         margin-bottom: $global-margin * 3;
         margin-top: $global-padding * 4.75;
     }
-    .thanks{
-      font-size: 20px;
-      font-family: 'Helvetica', sans-serif;
-    }
   }
 }
 
 .callout{
   margin-top: $global-margin * 3;
-  li{
-    margin-right: $global-margin;
-  }
+ p{
+   color:$primary-color;
+   margin-top: 10px;
+ }
 }
 
 .conference{
-  margin-top: $global-margin * 3;
-  margin-bottom: $global-margin * 8;
+  // margin-top: $global-margin * 3;
+  // margin-bottom: $global-margin * 8;
   h5, p{
    text-align: left;
  }
@@ -190,7 +196,7 @@ h5{
  .divider{
    margin-top: $global-margin * 1.75;
    margin-bottom: $global-margin * 3.25;
-   width: 570px;
+   max-width: 570px;
  }
  .event-details{
    font-size: $medium-font-size;
