@@ -182,19 +182,14 @@ h5, p{
    margin-top: 10px;
  }
 }
+
 .conference-intro-block{ //conference intro copy block
   margin-top: $global-margin * 2.5;
   margin-left: $global-margin * 2.5;
   margin-right: $global-margin * 2.5;
-  h2{
-    margin-bottom: $global-margin * 2;
-    a{
-      color: $secondary-color;
-      font-family: $header-font-family;
-    }
   }
-
 }
+
 .conference{
   // margin-top: $global-margin * 3;
   // margin-bottom: $global-margin * 2;
