@@ -184,8 +184,8 @@ h5, p{
 }
 
 .conference{
-  margin-top: $global-margin * 3;
-  margin-bottom: $global-margin * 8;
+  // margin-top: $global-margin * 3;
+  // margin-bottom: $global-margin * 8;
   h5, p{
    text-align: left;
  }
@@ -195,7 +195,7 @@ h5, p{
  .divider{
    margin-top: $global-margin * 1.75;
    margin-bottom: $global-margin * 3.25;
-   width: 570px;
+   max-width: 570px;
  }
  .event-details{
    font-size: $medium-font-size;
