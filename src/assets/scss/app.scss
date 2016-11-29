@@ -112,8 +112,8 @@ h5, p{
 .content-block{ //header & body copy before button
   margin-top: $global-margin * 2.5;
   margin-bottom: $global-margin * 3;
-  padding-left: $global-padding * 2.5;
-  padding-right: $global-padding * 2.5;
+  margin-left: $global-padding * 2.5;
+  margin-right: $global-padding * 2.5;
   h2{
     margin-bottom: $global-margin * 2;
     a{
@@ -136,8 +136,8 @@ h5, p{
     .updates-block{
       margin-top: $global-margin * 3.5;
       margin-bottom: $global-margin * 1.75;
-      padding-right: $global-padding * 2;
-      padding-left: $global-padding;
+      margin-right: $global-padding * 2;
+      margin-left: $global-padding;
       h2, p{
         color: $white;
         text-align: left;
