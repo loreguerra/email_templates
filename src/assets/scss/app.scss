@@ -34,6 +34,11 @@ h5, p{
   font-color: $primary-color;
 }
 
+.alt-text-white
+    font-color: $white;
+    font-size: $global-font-size;
+
+
 //header styles
 .invisible{
     display:none;
@@ -56,7 +61,7 @@ h5, p{
   .logo{
     width: 209px;
     height: 80px;
-    font-size: $h3-font-size;
+    font-size: $h4-font-size;
     color: $primary-color;
     margin: 0px auto;
   }
