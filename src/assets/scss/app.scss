@@ -112,8 +112,8 @@ h5, p{
 .content-block{ //header & body copy before button
   margin-top: $global-margin * 2.5;
   margin-bottom: $global-margin * 3;
-  padding-left: $global-padding * 2.5;
-  padding-right: $global-padding * 2.5;
+  margin-left: $global-margin * 2.5;
+  margin-right: $global-margin * 2.5;
   h2{
     margin-bottom: $global-margin * 2;
     a{
