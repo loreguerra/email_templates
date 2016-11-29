@@ -78,6 +78,7 @@ h5, p{
 }
 
 .update-icon{//smaller icons
+  max-width: 180px;
   margin: 0px auto;
 }
 .module{ //regular module
@@ -142,7 +143,7 @@ h5, p{
       margin-top: $global-margin * 3.5;
       margin-bottom: $global-margin * 1.75;
       margin-right: $global-margin * 2;
-      padding-left: $global-padding;
+      margin-left: $global-padding;
       h2, p{
         color: $white;
         text-align: left;
