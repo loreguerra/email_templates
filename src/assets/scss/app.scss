@@ -73,7 +73,8 @@ h5, p{
 }
 
 .update-icon{//smaller icons
-  width: 140px;
+  max-width: 180px;
+  margin: 0px auto;
 }
 .module{ //regular module
   margin-bottom: $global-margin * 5;
