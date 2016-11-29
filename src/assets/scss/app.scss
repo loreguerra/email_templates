@@ -183,13 +183,6 @@ h5, p{
  }
 }
 
-.conference-intro-block{ //conference intro copy block
-  margin-top: $global-margin * 2.5;
-  margin-left: $global-margin * 2.5;
-  margin-right: $global-margin * 2.5;
-  }
-}
-
 .conference{
   // margin-top: $global-margin * 3;
   // margin-bottom: $global-margin * 2;
@@ -215,6 +208,20 @@ h5, p{
 //custom content styles
 .blue{
   background-color: $updates-color-first;
+}
+
+.conference-intro{ // I wanted less space underneath for a single conference listing
+  margin-top: $global-margin * 2.5;
+  margin-left: $global-margin * 2.5;
+  margin-right: $global-margin * 2.5;
+  h2{
+    margin-bottom: $global-margin * 2;
+    a{
+      color: $secondary-color;
+      font-family: $header-font-family;
+    }
+  }
+
 }
 
 //footer styles
