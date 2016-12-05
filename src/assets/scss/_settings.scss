@@ -18,7 +18,7 @@
 
 $primary-color: #539a43; //#173d75 for felix
 $secondary-color: #07a6aa;
-$success-color: darken(desaturate(adjust-hue($primary-color, 10), 15), 10);
+$success-color: #21513B;
 $warning-color: #ffae00;
 $alert-color: darken(adjust-hue(darken($secondary-color, 20), 5), 5);
 $light-gray: #f3f3f3;
