@@ -163,6 +163,20 @@ h5, p{
   margin-bottom: $global-margin * 5;
 }
 
+.cta-color-stripe{ //color stripe cta
+  p{
+    color: $white;
+    padding-bottom: $global-padding * 2;
+  }
+    a{
+      color: $white;
+      font-weight: bold;
+    }
+    img{
+
+    }
+}
+
 .bottom-cta-block-background{ //bottom CTA block
   background-color: $darker-gray;
   padding-bottom: $global-padding * 2.75;
