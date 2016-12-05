@@ -175,6 +175,7 @@ h5, p{
 }
 
 .cta-color-stripe{ //color stripe cta
+  margin-bottom: 50px;
   p{
     color: $white;
     padding-bottom: $global-padding * 2;
@@ -186,7 +187,9 @@ h5, p{
     img{
         margin-top: 20px;
     }
-    margin-bottom: 50px;
+    button{
+      margin-bottom: 80px;
+    }
 }
 
 .bottom-cta-block-background{ //bottom CTA block
