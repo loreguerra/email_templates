@@ -121,6 +121,12 @@ h5, p{
     }
 }
 
+.small-divider{
+    max-width: 480px;
+    margin-top: $global-margin * 2.5;
+    margin-bottom: $global-margin * 2.5;
+}
+
 .image-text-background{ //image with side text gray bg module
     background-color: $light-gray;
     margin-bottom: $global-margin * 5;
