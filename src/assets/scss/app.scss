@@ -23,6 +23,7 @@ h1, h2, h3, h4, h5, p{
 h5, p{
   color: $black;
 }
+
 .xxl-number{
     font-size: 80px;
     color: $updates-color-second;
@@ -142,6 +143,10 @@ h5, p{
     }
   }
 
+}
+
+.left-header{ //header for list item
+  text-align: left;
 }
 
 .expiration-date{ //FOMO call
