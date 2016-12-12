@@ -100,8 +100,24 @@ h5, p{
 .gray-border{ //border around checklist
     border: 10px solid $medium-gray;
     max-width: 600px;
-    ul li{
-
+    .list-item{ //list item header & body copy before button
+      margin-bottom: $global-margin * 3;
+      margin-left: $global-padding * 2.5;
+      margin-right: $global-padding * 2.5;
+      .left-header{ //header for list item
+        text-align: left;
+      }
+      ul {
+          margin-left: 20px;
+          margin-right: 40px;
+          li{
+              list-style-type: none;
+              &:before{
+                  content: '\274B';
+                  margin-right: 10px;
+              }
+          }
+      }
     }
 }
 
@@ -150,22 +166,6 @@ h5, p{
 
 }
 
-.list-item{ //list item header & body copy before button
-  margin-bottom: $global-margin * 3;
-  margin-left: $global-padding * 2.5;
-  margin-right: $global-padding * 2.5;
-  h2{
-    margin-bottom: $global-margin * 2;
-    a{
-      color: $secondary-color;
-      font-family: $header-font-family;
-    }
-  }
-  .left-header{ //header for list item
-    text-align: left;
-  }
-
-}
 
 .expiration-date{ //FOMO call
   a{
