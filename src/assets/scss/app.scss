@@ -23,6 +23,11 @@ h1, h2, h3, h4, h5, p{
 h5, p{
   color: $black;
 }
+.xxl-number{
+    font-size: 80px;
+    color: $updates-color-second;
+    font-weight:bold;
+}
 
 .alt-text{
   font-size: $global-font-size;
@@ -85,7 +90,7 @@ h5, p{
   margin-bottom: $global-margin * 5;
 }
 
-.gray-border{
+.gray-border{ //border around checklist
     border: 10px solid $medium-gray;
     max-width: 600px;
 }
