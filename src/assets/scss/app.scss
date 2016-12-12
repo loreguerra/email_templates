@@ -100,6 +100,9 @@ h5, p{
 .gray-border{ //border around checklist
     border: 10px solid $medium-gray;
     max-width: 600px;
+    .last-button{
+        margin-bottom: $global-margin * 4;
+    }
     .list-item{ //list item header & body copy before button
       margin-bottom: $global-margin * 3;
       margin-left: $global-padding * 2.5;
