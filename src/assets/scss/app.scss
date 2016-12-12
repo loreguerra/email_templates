@@ -112,9 +112,10 @@ h5, p{
       }
       ul {
           margin-left: 10px;
-          margin-right: 40px;
+          margin-right: 50px;
           li{
               list-style-type: none;
+              margin-bottom: 10px;
               &:before{
                   content: '\274B';
                   margin-right: 10px;
