@@ -111,15 +111,10 @@ h5, p{
         text-align: left;
       }
       ul {
-          margin-left: 10px;
-          margin-right: 50px;
+          margin-left: 25px;
           li{
-              list-style-type: none;
+              list-style-type: disc;
               margin-bottom: 10px;
-              &:before{
-                  content: '\274B';
-                  margin-right: 10px;
-              }
           }
       }
     }
