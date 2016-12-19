@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, p{
 }
 
 
-h5, p{
+h1, h5, p{
   color: $black;
 }
 
@@ -162,7 +162,6 @@ h5, p{
 
 .content-block{ //header & body copy before button
   margin-top: $global-margin * 2.5;
-  margin-bottom: $global-margin * 3;
   margin-left: $global-padding * 4;
   margin-right: $global-padding * 4;
   h2{
