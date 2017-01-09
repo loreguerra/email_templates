@@ -229,6 +229,23 @@ h5, p{
     margin-bottom: 50px;
 }
 
+.publications-header{
+  background-color: $darker-gray;
+  padding-top: $global-padding + 10;
+  padding-bottom: $global-padding;
+  h2{
+    color: $white;
+  }
+}
+.publication{
+  background-color: $medium-gray;
+  margin-bottom: $global-padding * 2;
+  a{
+    font-weight: bold;
+    color: $dark-black;
+  }
+}
+
 .bottom-cta-block-background{ //bottom CTA block
   background-color: $darker-gray;
   padding-bottom: $global-padding * 2.75;
@@ -280,6 +297,10 @@ h5, p{
 }
 .blue{
   background-color: $updates-color-second;
+}
+.gray{
+  background-color: $medium-gray;
+
 }
 
 //footer styles
