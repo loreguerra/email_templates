@@ -228,7 +228,9 @@ h5, p{
     }
     margin-bottom: 50px;
 }
-
+.publications-list{
+  margin-bottom: $global-margin * 8;
+}
 .publications-header{
   background-color: $darker-gray;
   padding-top: $global-padding + 10;
@@ -240,9 +242,18 @@ h5, p{
 .publication{
   background-color: $medium-gray;
   margin-bottom: $global-padding * 2;
+  padding-top: $global-padding;
   a{
     font-weight: bold;
     color: $dark-black;
+  }
+  .instrument-name{
+      color: $black;
+      font-weight:normal;
+  }
+  .pub-date {
+    color: $secondary-color;
+    font-weight: bold;
   }
 }
 
