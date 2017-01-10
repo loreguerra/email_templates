@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, p{
 }
 
 
-h5, p{
+h5, p, li{
   color: $black;
 }
 
@@ -73,6 +73,9 @@ h5, p{
   }
 }
 
+li{
+  margin-bottom: 15px;
+}
 
 //standard content styles
 .main-image{ //big full-width images
@@ -304,7 +307,7 @@ h5, p{
 
 //custom content styles
 .green{
-  background-color: $updates-color-first;
+  color: $primary-color;
 }
 .blue{
   background-color: $updates-color-second;
