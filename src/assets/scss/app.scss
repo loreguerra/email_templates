@@ -230,6 +230,9 @@ h5, p{
 }
 .publications-list{
   margin-bottom: $global-margin * 8;
+  .pub-info{
+    font-size: $global-font-size - 6;
+  }
 }
 .publications-header{
   background-color: $darker-gray;
