@@ -232,8 +232,11 @@ h5, p{
   margin-bottom: $global-margin * 8;
   .pub-info{
     font-size: $global-font-size - 6;
-    margin-top: 25px;
+    margin-top: $global-margin * 1.5;
+  }
+  .preview{
     color: $dark-black;
+    margin-top: $global-margin * 1.5;
   }
 }
 .publications-header{
