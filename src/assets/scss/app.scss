@@ -77,6 +77,7 @@ h5, p{
 //standard content styles
 .main-image{ //big full-width images
   width:570px;
+  margin-top: $global-margin;
 }
 
 .half-image{//half width images
@@ -311,8 +312,8 @@ h5, p{
 
 
 //custom content styles
-.green{
-  background-color: $updates-color-first;
+.first-section{
+  background-color: #134235;
 }
 .blue{
   background-color: $updates-color-second;
