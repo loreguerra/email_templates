@@ -229,7 +229,22 @@ h5, p{
     margin-bottom: 50px;
 }
 .publications-list{
-  margin-bottom: $global-margin * 8;
+  margin-bottom: $global-margin * 6;
+  .first-section{
+    background-color: #134235;
+  }
+  .second-section{
+    background-color: #0f4a39;
+  }
+  .third-section{
+    background-color: #0b533d;
+  }
+  .fourth-section{
+    background-color: #075b41;
+  }
+  .fifth-section{
+    background-color: #036345;
+  }
 }
 .publications-header{
   background-color: $darker-gray;
@@ -240,7 +255,7 @@ h5, p{
   }
 }
 .publication{
-  background-color: $medium-gray;
+  background-color: lighten($medium-gray, 10);
   margin-bottom: $global-padding * 6;
   padding-top: $global-padding;
   a{
@@ -264,6 +279,7 @@ h5, p{
     font-weight: bold;
   }
 }
+
 
 .bottom-cta-block-background{ //bottom CTA block
   background-color: $darker-gray;
