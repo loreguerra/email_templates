@@ -231,6 +231,9 @@ h5, p{
 }
 .publications-list{
   margin-bottom: $global-margin * 6;
+  .first-section{
+    background-color: #134235;
+  }
 }
 .publications-header{
   background-color: $darker-gray;
@@ -312,9 +315,7 @@ h5, p{
 
 
 //custom content styles
-.first-section{
-  background-color: #134235;
-}
+
 .blue{
   background-color: $updates-color-second;
 }
