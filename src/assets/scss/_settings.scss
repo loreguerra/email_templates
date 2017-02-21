@@ -18,7 +18,7 @@
 
 $primary-color: #173d75;
 $secondary-color: #07a6aa;
-$success-color: darken(desaturate(adjust-hue($primary-color, 2), 15), 10);
+$success-color: darken(desaturate($primary-color, 15), 10);
 $warning-color: #ffae00;
 $alert-color: darken(adjust-hue(darken($secondary-color, 20), 20), 5);
 $light-gray: #f3f3f3;
@@ -39,7 +39,7 @@ $global-margin: 16px;
 $global-radius: 10px;
 $global-rounded: 10px;
 $global-breakpoint: $global-width + $global-gutter;
-$updates-color-first: desaturate(adjust-hue($primary-color, 2), 15);
+$updates-color-first: desaturate($primary-color, 15);
 $updates-color-second: adjust-hue(darken($secondary-color, 20), 20);
 
 // 2. Grid
