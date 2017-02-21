@@ -291,10 +291,19 @@ h5, p{
         margin-top: $global-margin * 4.75;
         margin-left: $global-margin * 2.5;
         margin-right: $global-margin * 2.5;
+        a{
+          color: $white;
+          font-family: $header-font-family;
+          text-decoration: underline;
+        }
     }
     p{
       color:$white;
       margin-bottom: $global-margin * 3;
+      a{
+        color: $white;
+        text-decoration: underline;
+      }
     }
   }
 }
