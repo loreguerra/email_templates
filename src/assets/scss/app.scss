@@ -288,10 +288,13 @@ h5, p{
     background-color: $darker-gray;
     h2{
         color: $white;
-        margin-bottom: $global-margin * 3;
         margin-top: $global-margin * 4.75;
         margin-left: $global-margin * 2.5;
         margin-right: $global-margin * 2.5;
+    }
+    p{
+      color:$white;
+      margin-bottom: $global-margin * 3;
     }
   }
 }
