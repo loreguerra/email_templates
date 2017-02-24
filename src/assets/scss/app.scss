@@ -266,6 +266,10 @@ h5, p{
   .pub-info{
     font-size: $global-font-size - 6;
     margin-top: $global-margin * 1.5;
+    a{
+      font-weight: normal;
+      color: $black;
+    }
   }
   .preview{
     color: $dark-black;
