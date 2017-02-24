@@ -1,0 +1,133 @@
+{{!-- This is the base layout for your project, and will be used on every page. --}}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow:400,700" rel="stylesheet">
+    <title>{{subject}}</title>
+
+  </head>
+  <body>
+    <!-- <style> -->
+
+    <table class="body">
+
+      <tr>
+        <td class="center" align="center" valign="top">
+
+          <center>
+
+    <!-- preheader -->
+        <span class="preheader">{{description}}</span>
+        <div class="invisible">{{tagline}}</div>
+
+    <!-- view in browser -->
+        <div id="browser-link"><!-- *|IFNOT:ARCHIVE_PAGE|* -->
+
+        <p>{{description}} <a href="*|ARCHIVE|*">View in browser</a></p> <!-- *|END:IF|* -->
+
+        </div>
+
+        <!-- logo -->
+            <container>
+              <row>
+                <columns>
+                  <center>
+              <div id="logo-header">
+              <a href="http://www.bilmar.com.tr/">
+                <img src="https://gallery.mailchimp.com/07fe7340613a5466f17e556a2/images/90e38aaf-1f55-42db-8fe6-ee93b4c11b3b.jpg" class="logo" width="603" height="90" alt="Bilmar">
+              </a>
+             </div>
+           </center>
+         </columns>
+        </row>
+        </container>
+
+        <!-- page insert tag -->
+
+            {{> body}}
+
+
+        <!-- footer -->
+        <!-- gray bar contact -->
+        <div id="footer">
+
+               <div id="contact-info">
+                   <!--[if (gte mso 9)|(IE)]>
+                   <br style="font-size:5px; color:#cacaca; background-color:#cacaca;">
+
+                   <![endif]-->
+                   <!--[if (gte mso 12)]>
+                   <br><br>
+                   <![endif]-->
+              <h1><a href="http://www.bilmar.com.tr/">bilmar.com.tr</a></h1>
+              <!--[if (gte mso 9)|(IE)]>
+              <br style="font-size:5px; color:#cacaca; background-color:#cacaca;">
+              <![endif]-->
+                <h4><a href="https://cid-inc.com/request-pricing/?utm_source=Newsletter&utm_campaign=CIDBilmarJan&utm_medium=Email">Request a quote</a> | <a href="mailto:bilkim@bilmar.com.tr">Contact us</a></h4>
+                <!--[if (gte mso 9)|(IE)]>
+                <br style="font-size:5px; color:#cacaca; background-color:#cacaca;">
+                <![endif]-->
+                <h4><a href="tel:+ 90 312 468 2835">+ 90 312 468 2835</a></h4>
+                <!--[if (gte mso 9)|(IE)]>
+              <![endif]-->
+
+              <!--[if (gte mso 12)]>
+              <br><br><br><br>
+              <![endif]-->
+        </div>
+
+
+        <!-- social icons -->
+            <div id ="social-icons">
+              <!--[if (gte mso 9)|(IE)]>
+              <br>
+              <![endif]-->
+              <a href="https://www.facebook.com/CID-Bio-Science-Inc-101303298234">
+                <img src="https://gallery.mailchimp.com/07fe7340613a5466f17e556a2/images/553d3b44-36be-4120-b59f-e7cd5b738df6.png" class="alt-text-sm" width="40" height="40" alt="FB">
+              </a>
+            <a href="https://www.instagram.com/cidbioscience">
+              <img src="https://gallery.mailchimp.com/07fe7340613a5466f17e556a2/images/7d6fd7c3-cf70-4f33-b479-ca797b4cb882.png" class="alt-text-sm" width="40" height="40" alt="Photos">
+            </a>
+             <a href="https://www.youtube.com/channel/UCEKKxnicu2id6DfO8pFZ4sg">
+               <img src="https://gallery.mailchimp.com/07fe7340613a5466f17e556a2/images/b6a9a3e6-9fbf-429d-bfb6-6ebe2ddfb1e4.png" class="alt-text-sm" width="40" height="40" alt="Videos">
+             </a>
+             <a href="https://www.linkedin.com/company/cid-bio-science-inc-">
+               <img src="https://gallery.mailchimp.com/07fe7340613a5466f17e556a2/images/0a6b883d-b0d5-41e6-bff2-9885a4ce6eae.png" class="alt-text-sm" width="40" height="40" alt="LinkedIn">
+             </a>
+            <a href="https://twitter.com/cidbioscience">
+              <img src="https://gallery.mailchimp.com/07fe7340613a5466f17e556a2/images/8a7b6104-bc5e-4094-beb1-b5f7429744d8.png" class="alt-text-sm" width="40" height="40" alt="Twitter">
+            </a>
+
+              <!-- forward email -->
+                <h5><a href="*|FORWARD|*">Forward</a> this email to a friend</h5>
+
+            </div>
+
+            <!-- fine print -->
+          <div id="legal">
+
+              <p>Copyright &copy; *|CURRENT_YEAR|* *|LIST:COMPANY|*, All rights reserved.</p>
+
+          </div>
+
+
+</div>
+
+
+
+          </center>
+        </td>
+      </tr>
+    </table>
+    <!-- prevent Gmail on iOS font size manipulation -->
+   <div style="display:none; white-space:nowrap; font:15px courier; line-height:0;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </div>
+
+
+  </body>
+</html>
