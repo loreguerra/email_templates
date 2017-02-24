@@ -64,12 +64,22 @@ h5, p{
 }
 
 #logo-header{
-  .logo{
-    width: 272px;
-    height: 64px;
+  .header-img{
     font-size: $h3-font-size;
     color: $primary-color;
     margin: 0px auto;
+    .cid-logo{
+      width: 272px;
+      height: 64px;
+    }
+    .felix-logo{
+      width: 209px;
+      height: 80px;
+    }
+    .dist-banner{
+      width: 603px;
+      height: 90px;
+    }
   }
 }
 
